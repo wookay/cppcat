@@ -1,0 +1,9 @@
+notifications:
+  email: false
+language: cpp
+dist: trusty
+os:
+  - linux
+script:
+  - make build
+  - make test
