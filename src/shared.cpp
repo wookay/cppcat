@@ -2,7 +2,7 @@
 #include <iostream>
 
 void f() {
-  std::cout << "f()\n";
+  std::cout << "f() 호출\n";
 }
 
 X::X() {
